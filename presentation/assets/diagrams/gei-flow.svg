@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <title>Migration flow with GitHub Enterprise Importer</title>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#57606a"/></marker></defs>
+  <g stroke-width="2">
+    <rect x="10" y="40" width="150" height="120" rx="12" fill="#f6f8fa" stroke="#57606a"/>
+    <rect x="185" y="40" width="150" height="120" rx="12" fill="#ddf4ff" stroke="#0969da"/>
+    <rect x="360" y="40" width="150" height="120" rx="12" fill="#ddf4ff" stroke="#0969da"/>
+    <rect x="535" y="40" width="150" height="120" rx="12" fill="#fff8c5" stroke="#bf8700"/>
+    <rect x="710" y="40" width="150" height="120" rx="12" fill="#dafbe1" stroke="#1a7f37"/>
+    <rect x="885" y="40" width="150" height="120" rx="12" fill="#dafbe1" stroke="#1a7f37"/>
+    <rect x="1050" y="40" width="140" height="120" rx="12" fill="#fbefff" stroke="#8250df"/>
+  </g>
+  <g stroke="#57606a" stroke-width="3" marker-end="url(#a)">
+    <line x1="160" y1="100" x2="183" y2="100"/><line x1="335" y1="100" x2="358" y2="100"/><line x1="510" y1="100" x2="533" y2="100"/>
+    <line x1="685" y1="100" x2="708" y2="100"/><line x1="860" y1="100" x2="883" y2="100"/><line x1="1035" y1="100" x2="1048" y2="100"/>
+  </g>
+  <g font-size="30" text-anchor="middle" font-weight="700" fill="#1f2328">
+    <text x="85" y="78">①</text><text x="260" y="78">②</text><text x="435" y="78">③</text><text x="610" y="78">④</text><text x="785" y="78">⑤</text><text x="960" y="78">⑥</text><text x="1120" y="78">⑦</text>
+  </g>
+  <g font-size="18" text-anchor="middle" font-weight="700" fill="#1f2328">
+    <text x="85" y="108">Inventory</text><text x="85" y="128">&amp; hygiene</text>
+    <text x="260" y="108">Destination</text><text x="260" y="128">prep</text>
+    <text x="435" y="108">Trial run</text><text x="435" y="128">(-sandbox)</text>
+    <text x="610" y="108">Freeze</text><text x="610" y="128">source</text>
+    <text x="785" y="108">Migrate</text><text x="785" y="128">gh gei</text>
+    <text x="960" y="108">Validate &amp;</text><text x="960" y="128">follow-ups</text>
+    <text x="1120" y="108">Reclaim</text><text x="1120" y="128">&amp; cut over</text>
+  </g>
+  <g font-size="15" text-anchor="middle" fill="#57606a">
+    <text x="85" y="182">rulesets, LFS,</text><text x="85" y="200">sizes, PR / issues</text>
+    <text x="260" y="182">enterprise, IdP,</text><text x="260" y="200">orgs, teams, GHAS</text>
+    <text x="435" y="182">duration, gaps,</text><text x="435" y="200">manual tasks</text>
+    <text x="610" y="182">no delta</text><text x="610" y="200">migration!</text>
+    <text x="785" y="182">≤ 5 concurrent</text><text x="785" y="200">repo migrations</text>
+    <text x="960" y="182">counts, hooks, apps,</text><text x="960" y="200">secrets, teams</text>
+    <text x="1120" y="182">mannequins,</text><text x="1120" y="200">re-onboard devs</text>
+  </g>
+  <path d="M960 222 V262 H435 V222" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a)"/>
+  <text x="698" y="290" text-anchor="middle" font-size="15" fill="#57606a">Repeat ③–⑦ for every wave · pilot first, largest / most complex repos last</text>
+</svg>

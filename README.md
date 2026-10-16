@@ -30,6 +30,7 @@ A complete, step-by-step guide for organizations moving their GitHub estate from
 | 08 | [Pitfalls & mitigations](docs/08-pitfalls-and-mitigations.md) | 30+ pitfalls with likelihood/impact, mitigation and early-warning signs |
 | 09 | [References & research notes](docs/09-references-and-research-notes.md) | Sources, key findings, limits of the research, glossary |
 | ✔ | [Migration checklist](checklists/migration-checklist.md) | End-to-end checklist with gates and owner roles |
+| ▶ | [Presentation (60 min)](presentation/emu-migration.html) | Marp slide deck ([source](presentation/emu-migration.md), [how to present and rebuild](presentation/README.md)) |
 
 ## The migration in one picture
 
@@ -61,7 +62,7 @@ flowchart LR
 
 ## Roadmap for this repository
 
-Follow-up deliverables planned after this markdown baseline: a **presentation deck** and a **PDF/Word work document** generated from these files. Keep the markdown as the single source of truth.
+The one-hour **[presentation deck](presentation/README.md)** (Marp, HTML) is available in [`presentation/`](presentation). A **PDF/Word work document** generated from these files is still planned. Keep the markdown as the single source of truth.
 
 ## Contributing
 
