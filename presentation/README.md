@@ -29,6 +29,12 @@ A one-hour, GitHub-styled slide deck that summarizes the guides in this reposito
 | 2 | Wrap-up and next steps | [checklist](../checklists/migration-checklist.md) |
 | 5 | Q&A | – |
 
+## Publish on GitHub Pages
+
+The workflow [`deploy-presentation.yml`](../.github/workflows/deploy-presentation.yml) builds the deck with Marp CLI and deploys it (as `index.html` plus `assets/`) to GitHub Pages on every push to `main` that touches `presentation/`, or manually via **Actions → Run workflow**.
+
+One-time setup: in the repository **Settings → Pages**, set **Source** to **GitHub Actions**. The deck is then available at `https://frkim.github.io/GitHub-EMU/`.
+
 ## Rebuild the HTML
 
 Run from this folder (the options in [`.marprc.yml`](.marprc.yml) are picked up automatically):
