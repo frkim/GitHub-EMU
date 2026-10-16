@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <title>Phased EMU migration roadmap (relative durations)</title>
+  <g font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <path d="M10 70h150l30 50-30 50H10l30-50z" fill="#0550ae"/><text x="100" y="112">Phase 0</text>
+    <path d="M180 70h150l30 50-30 50H180l30-50z" fill="#0969da"/><text x="270" y="112">Phase 1</text>
+    <path d="M350 70h140l30 50-30 50H350l30-50z" fill="#218bff"/><text x="435" y="112">Phase 2</text>
+    <path d="M510 70h150l30 50-30 50H510l30-50z" fill="#1f883d"/><text x="600" y="112">Phase 3</text>
+    <path d="M680 70h210l30 50-30 50H680l30-50z" fill="#1a7f37"/><text x="800" y="112">Phase 4</text>
+    <path d="M910 70h140l30 50-30 50H910l30-50z" fill="#9a6700"/><text x="995" y="112">Phase 5</text>
+    <path d="M1070 70h120v100h-120l30-50z" fill="#6e7781"/><text x="1135" y="112">Phase 6</text>
+  </g>
+  <g font-size="17" fill="#ffffff" text-anchor="middle">
+    <text x="100" y="140">≈ 4 weeks</text><text x="270" y="140">≈ 4 weeks</text><text x="435" y="140">≈ 3 weeks</text><text x="600" y="140">≈ 4 weeks</text><text x="800" y="140">≈ 8 weeks</text><text x="995" y="140">≈ 3 weeks</text><text x="1135" y="140">≈ 3 weeks</text>
+  </g>
+  <g font-size="17" fill="#1f2328" text-anchor="middle" font-weight="600">
+    <text x="100" y="212">Discovery &amp;</text><text x="100" y="232">business case</text>
+    <text x="270" y="212">Foundation:</text><text x="270" y="232">EMU + IdP + SCIM</text>
+    <text x="435" y="212">Governance</text><text x="435" y="232">baseline</text>
+    <text x="600" y="212">Pilot wave</text><text x="600" y="232">(trial + prod)</text>
+    <text x="800" y="212">Trial runs +</text><text x="800" y="232">production waves</text>
+    <text x="995" y="212">Cutover &amp;</text><text x="995" y="232">hypercare</text>
+    <text x="1135" y="212">Decommission</text><text x="1135" y="232">legacy orgs</text>
+  </g>
+  <line x1="10" y1="270" x2="1190" y2="270" stroke="#d0d7de" stroke-width="2"/>
+  <text x="10" y="300" font-size="17" fill="#57606a">Strategy</text>
+  <text x="600" y="300" font-size="17" fill="#57606a" text-anchor="middle">Delivery  ·  relative sequencing – convert to calendar dates after discovery and pilot throughput</text>
+  <text x="1190" y="300" font-size="17" fill="#57606a" text-anchor="end">Close-out</text>
+</svg>
